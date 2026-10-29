@@ -1,0 +1,20 @@
+{
+  "functions": {
+    "api/[...path].js": {
+      "maxDuration": 60
+    }
+  },
+  "rewrites": [
+    { "source": "/", "destination": "/code.html" },
+    { "source": "/code", "destination": "/code.html" },
+    { "source": "/pair", "destination": "/code.html" },
+    { "source": "/connect", "destination": "/code.html" },
+    { "source": "/token", "destination": "/code.html" },
+    { "source": "/dashboard", "destination": "/code.html" },
+    { "source": "/login", "destination": "/auth.html" },
+    { "source": "/auth", "destination": "/auth.html" },
+    { "source": "/admin", "destination": "/admin.html" },
+    { "source": "/servers", "destination": "/servers.html" },
+    { "source": "/settings", "destination": "/settings.html" }
+  ]
+}
